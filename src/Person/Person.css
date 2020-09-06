@@ -1,0 +1,17 @@
+.Person{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid #8A2BE2;
+    box-shadow: inset;
+    padding: 25px;
+    text-align: center;
+}
+
+
+@media(min-width : 500px)
+{
+    .Person{
+    width : 450px;
+    }
+}
